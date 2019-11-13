@@ -1,47 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
-MARKS=int(input("Enter your HSC marks="))
-TotalMarks=int(input("Enter your total HSC marks="))
-x=float(((MARKS/TotalMarks)*100))
-percent=x
-print(percent)
-if percent>=80:
-    print("You have got A-1 Grade in HSC Exam")
-elif percent < 80 and percent>=70:
-   
-    print("You have got A Grade in HSC Exam")
-elif percent < 70 and percent>=60:
-    print("You have got B Grade in HSC Exam")  
-elif percent < 60 and percent>=50:
-    print("You have got C Grade in HSC Exam")  
-elif percent < 50 and percent>=0:
-    print("***Fail***") 
-
-
-# In[15]:
-
-
 NUM=int(input("Enter the number="))
 x=int(NUM/2)*2
 if x==NUM:
     print("the number is even")
 else:
     print("the number is odd")
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
